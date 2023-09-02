@@ -1,0 +1,1 @@
+NOTE: all features work, but the sending image file got an error. The server stucks in an infinite loop although the client has finished sending the binary file. The image is sent (you can check the image), but the program got stuck.
