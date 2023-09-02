@@ -1,0 +1,108 @@
+{
+	"window-size": {
+		"width": 1000,
+		"height": 550
+	},
+	"url": "https://music.youtube.com/watch?v=2k8AIzE87Mo",
+	"options": {
+		"tray": false,
+		"appVisible": true,
+		"autoUpdates": true,
+		"hideMenu": true,
+		"startAtLogin": false,
+		"disableHardwareAcceleration": false,
+		"restartOnConfigChanges": false,
+		"trayClickPlayPause": false,
+		"autoResetAppCache": false,
+		"resumeOnStart": true,
+		"proxy": "",
+		"themes": [
+			"/home/nvt/awesome-setup/config/youtube-music/catppuccin.css"
+		],
+		"hideMenuWarned": true
+	},
+	"plugins": {
+		"navigation": {
+			"enabled": true
+		},
+		"adblocker": {
+			"enabled": true,
+			"cache": true,
+			"additionalBlockLists": []
+		},
+		"shortcuts": {
+			"enabled": false,
+			"overrideMediaKeys": false
+		},
+		"downloader": {
+			"enabled": false,
+			"ffmpegArgs": [],
+			"preset": "mp3"
+		},
+		"last-fm": {
+			"enabled": false,
+			"api_root": "http://ws.audioscrobbler.com/2.0/",
+			"api_key": "04d76faaac8726e60988e14c105d421a",
+			"secret": "a5d2a36fdf64819290f6982481eaffa2"
+		},
+		"discord": {
+			"enabled": false,
+			"activityTimoutEnabled": true,
+			"activityTimoutTime": 600000,
+			"listenAlong": true,
+			"hideDurationLeft": false
+		},
+		"notifications": {
+			"enabled": false,
+			"unpauseNotification": false,
+			"urgency": "normal",
+			"interactive": false
+		},
+		"precise-volume": {
+			"enabled": false,
+			"steps": 1,
+			"arrowsShortcut": true,
+			"globalShortcuts": {
+				"volumeUp": "",
+				"volumeDown": ""
+			}
+		},
+		"sponsorblock": {
+			"enabled": false,
+			"apiURL": "https://sponsor.ajay.app",
+			"categories": [
+				"sponsor",
+				"intro",
+				"outro",
+				"interaction",
+				"selfpromo",
+				"music_offtopic"
+			]
+		},
+		"video-toggle": {
+			"enabled": false,
+			"mode": "custom",
+			"forceHide": false
+		},
+		"picture-in-picture": {
+			"enabled": false,
+			"alwaysOnTop": true,
+			"savePosition": true,
+			"saveSize": false,
+			"hotkey": "P"
+		},
+		"skip-silences": {
+			"onlySkipBeginning": false
+		}
+	},
+	"__internal__": {
+		"migrations": {
+			"version": "1.19.0"
+		}
+	},
+	"window-maximized": false,
+	"window-position": {
+		"x": 460,
+		"y": 265
+	}
+}
